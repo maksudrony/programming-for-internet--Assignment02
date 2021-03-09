@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>currency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon01.ico">
+  </head>
+  <body>
+    <header class="main-head">
+      <nav><!--The <nav> tag defines a set of navigation links.Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links. -->
+        <ul>
+          <li> <a href="index.html">Fortune</a> </li>
+          <li> <a class="gg"href="convert.html">Currency</a> </li>
+          <li> <a href="quiz.html">Quiz</a> </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="currency">
+      <h1>hi! you can covert your currency here!</h1>
+      <form class="currency-form" action="index.html" method="post">
+        <input type="text" class="money" name="money" value="">
+        <button type="submit" class="money-button" name="button">
+       <p class="hand">👈 </p>
+        </button>
+        <div class="select">
+          <select class="filter-conversion" name="convert">
+            <option value="usd">USD🎃</option>
+            <option value="cad">CAD🌙</option>
+            <option value="eur">EUR🤪</option>
+            <!--option value="gbd">GBP📍</option-->
+            <option value="aud">AUD⏳</option>
+
+          </select>
+          </div>
+      </form>
+      <div class="currency-container">
+                  <ul class="currency-list"></ul>
+              </div>
+          </div>
+
+
+          <script src="convert.js"></script>
+
+
+    </body>
+
+    </html>

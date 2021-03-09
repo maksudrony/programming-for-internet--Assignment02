@@ -1,0 +1,390 @@
+.quiz-head {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-family:  "Brush Script MT",cursive;
+  font-weight: bolder;
+  color: #23689b;
+}
+
+.quiz-select {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-select h2 {
+  width: 35rem;
+  font-size: 2.5rem;
+  padding: 1.1rem 1rem;
+  background: #ccf2f4;
+  border: none;
+  font-family: monospace;
+}
+
+.select-div {
+  position: relative;
+}
+
+.filter-questions {
+  /* margin-left: 1.5rem; */
+  padding: 1.1rem 1rem;
+  width: 11rem;
+  font-size: 2.5rem;
+  color: #11698e;
+  cursor: pointer;
+}
+
+.select-div::after {
+  content: "😥";
+  position: absolute;
+top:0;
+right:0;
+
+  background-color: #c7ffd8;
+  font-size: 1.7rem;
+  padding: 1.25rem 1.7rem 1.8rem 1.7rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select-div:hover::after {
+  background-color: #ffee93;
+
+}
+
+.gen-quiz {
+  margin: 2rem;
+  padding: 1.25rem 4rem;
+  font-size: 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: #eaffd0;
+  font-family: cursive;
+  color: #383e56;
+}
+
+.gen-quiz:hover {
+  background-color: #ff75a0;
+  color: #00917c;
+}
+
+.quiz{
+font-size:3rem;
+  border: none;
+  color: #51c2d5;
+font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.results {
+  color: #eb5e0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.2rem;
+}
+
+.submit-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+.submit {
+  margin: 5rem 0 3rem 0;
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  background-color: #80ffdb;
+  color: #a9294f;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.submit:hover {
+  background-color: #fdffbc;
+}
+
+.results {
+  font-size: 4.5rem;
+  margin: 1.5rem 3rem;
+  background-color: #f0c38e;
+  color: #6930c3;
+}
+
+.question {
+  margin: 2rem 0;
+}
+
+.label {
+  margin: 0 1.5rem;
+  padding: 0.5rem 3rem;
+  background-color: #bbf1fa;
+  border-radius: 0.5rem;
+  color: #ff577f;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.2rem solid #f58634;
+  border-radius: 50%;
+  outline: none;
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+input[type="radio"]:before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked:before {
+  background: #944e6c;
+}
+
+
+
+
+
+
+
+
+
+
+.gg{
+  background-color: #8ac4d0;
+
+  padding: 0.6rem 3rem;
+  border-radius: 30px;
+  font-size: 30px;
+  color: #3b5360;
+  font-family: monospace;
+  font-weight: bolder;
+
+}
+a{
+text-decoration: none;
+color: #11698e;
+font-weight: bolder;
+}
+.main-head li{
+  font-size: 30px;
+
+  font-family: monospace;
+}
+.currency h1 {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-family:  "Brush Script MT",cursive;
+  font-weight: bolder;
+  color: #00917c;
+}
+
+.currency-form {
+  min-height: 20vh;
+}
+
+.currency-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.money-button {
+  padding: 0.7rem 0.9rem;
+  font-size: 2.5rem;
+  border: none;
+  background: white;
+  color: #b392ac;
+  cursor: pointer;
+
+}
+input{
+  outline: none;
+}
+.money {
+  width: 40rem;
+  font-size: 2rem;
+  padding: 1.2rem 1rem;
+  background: white;
+  border: none;
+}
+.hand{
+  margin: 0;
+}
+
+.money-button:hover {
+  background: #cdfffc;
+  color: white;
+}
+select {
+  -webkit-appearance: none;
+
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+.select {
+  position: relative;
+}
+
+.filter-conversion {
+  margin-left: 1.5rem;
+padding: 1.65rem 0.5rem 1.20rem 1.5rem;
+  width: 20rem;
+  font-size: 1.8rem;
+  color: #9e8198;
+  cursor: pointer;
+}
+
+.select::after {
+  content: "🎗";
+  position: absolute;
+
+  background-color: #008891;
+  font-size: 1.7rem;
+  padding: 1.65rem 1.7rem 1.20rem 1.7rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+
+
+.select:hover::after {
+  background-color: #55b3b1;
+  color: #ff577f;
+}
+.currency-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-list{
+  list-style: none;
+  min-width: 30%;
+}
+.currency-div{
+  margin: 1rem;
+  display: flex;
+  background: white;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  transition: all 0.5s ease;
+}
+.currency-div li {
+  flex: 1;
+}
+
+.currency-item {
+  padding: 0.5rem 1rem;
+}
+
+.reset-button {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0 0 17rem;
+  padding: 1rem 3rem;
+  background-color: #fdffbc;
+  color: #00af91;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+}
+
+.reset-button:hover {
+  background-color: #adeecf;
+}
+
+
+
+
+
+
+
+
+.main-head{
+background-color:#f2b4b4;
+width:100%;
+
+}
+
+
+nav{
+  display:flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  width:100%;
+  flex-wrap: wrap;
+
+
+}
+ul{
+list-style-type:none;
+}
+nav ul{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+flex: 1 1 40rem;
+}
+body{
+  color: black;
+height: 100vh;
+  background-color: #ffe3fe;
+  margin:0;
+}
+
+.fortune{
+
+  height: 80vh;
+  position: relative;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+.gen-fortune{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  min-height: 20vh;
+  width: 80%;
+  font-size: 5rem;
+  background-color: #f2b4b4;
+  align-items: center;
+  text-align: center;
+  border-radius: 35px 15px 35px 15px;
+  color: #93329e;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 70px;
+  font-family:  "Brush Script MT",cursive;
+  font-weight: bolder;
+}

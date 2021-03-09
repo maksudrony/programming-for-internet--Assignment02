@@ -1,0 +1,44 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon02.ico">
+  </head>
+  <body>
+    <header class="main-head">
+      <nav><!--The <nav> tag defines a set of navigation links.Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links. -->
+        <ul>
+          <li> <a href="index.html">Fortune</a> </li>
+          <li> <a href="convert.html">Currency</a> </li>
+          <li> <a class="gg" href="quiz.html">Quiz</a> </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="quiz-head">surprise! Here is your quiz!🙄</h1>
+
+    <div class="quiz-select">
+        <h2>Number of questions</h2>
+        <div class="select-div">
+            <select name="questions" class="filter-questions">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <button class="gen-quiz">Generate Quiz</button>
+    </div>
+
+    <div class="quiz"></div>
+    <div class="submit-div" id="get-result-div">
+        <button class="submit">Get Results</button>
+    </div>
+    <div class="results"></div>
+
+
+    <script src="quizApp.js"></script>
+</body>
+</html>
